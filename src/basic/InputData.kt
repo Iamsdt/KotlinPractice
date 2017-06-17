@@ -25,5 +25,4 @@ fun main(args: Array<String>){
     print("Type a Int number: ")
     val type:Int = readLine()!!.toInt()
     println("your int number is: $type")
-
 }
