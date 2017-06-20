@@ -8,9 +8,9 @@ fun main(args: Array<String>) {
 
     val arrays = Array(5) { 0 }
 
-    arrays[0] = 1
-    arrays[1] = 2
-    println(arrays[0])
+    arrays[1] = 1
+    arrays[2] = 2
+    println(arrays[2])
 
     val arrayStr = Array(5) { "Shudipto" }
     arrays[1] = 2
