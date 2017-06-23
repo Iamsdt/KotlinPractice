@@ -6,7 +6,7 @@ package anothercourse
 
 fun main(args: Array<String>){
 
-   //var names = ArrayList<String>{}
+   //var demoArray = ArrayList<String>{}
 
 
 }
