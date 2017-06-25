@@ -18,7 +18,7 @@ package basic
 fun main(args: Array<String>){
 
     var x:Int = 10
-    var y:Int = 20
+    val y:Int = 20
 
     val sum = --x + y
 
@@ -26,5 +26,14 @@ fun main(args: Array<String>){
 
     val sum2 = x++ + y
     println("After var: $sum2")
+
+    var i = 5
+
+    println(i++)
+
+    print(i--)
+
+
+    println(i)
 
 }
