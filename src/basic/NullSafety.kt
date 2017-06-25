@@ -43,6 +43,8 @@ fun main(args: Array<String>){
     println("ReturnNull2: $returnNull2")
     //println("ReturnNull3: $returnNull3")
 
+
+
     val returnNull4:String = returnNull() ?: "No name"
     println(returnNull4)
 }
