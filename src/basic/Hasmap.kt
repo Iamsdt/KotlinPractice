@@ -5,9 +5,11 @@ package basic
  */
 
 fun main(args: Array<String>) {
+
+
+    //todo post
+
     //has map take key and value
-
-
     val hasMap = HashMap<String,String>()
 
     hasMap.put("s","Shudipto")

@@ -6,6 +6,8 @@ package basic
 
 fun main(args: Array<String>) {
 
+    //TODO post
+
     //set can not save duplicate value
     val set = setOf(15,2,3,10,5,6,15,10)
 

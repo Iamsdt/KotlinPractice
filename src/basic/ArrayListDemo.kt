@@ -6,6 +6,8 @@ package basic
 
 fun main(args: Array<String>) {
 
+    //todo post
+
     val list = ArrayList<String>()
 
     list.add("Shudipto")

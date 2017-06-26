@@ -6,6 +6,8 @@ package basic
 
 fun main(args: Array<String>) {
 
+    //todo post
+
     //kotlin has map
     val hasmap = hashMapOf(1 to "shudipto")
     hasmap.put(2,"trafder")

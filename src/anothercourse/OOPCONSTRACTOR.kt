@@ -5,6 +5,8 @@ package anothercourse
  */
 private class Apple3(){
 
+    //todo post
+
     var color:String? = null
     var shape:String? = null
 

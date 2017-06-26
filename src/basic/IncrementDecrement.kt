@@ -17,6 +17,8 @@ package basic
 
 fun main(args: Array<String>){
 
+    //todo post
+
     var x:Int = 10
     val y:Int = 20
 

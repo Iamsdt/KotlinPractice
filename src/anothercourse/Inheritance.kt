@@ -4,7 +4,7 @@ package anothercourse
  * Created by Shudipto Trafder on 6/20/2017.
  */
 
-open class Math() {
+open class Math {
 
     fun add(a:Int, b:Int):Int{
         return a+b
@@ -15,7 +15,7 @@ open class Math() {
     }
 }
 
-class Math2() : Math(){
+class Math2 : Math(){
 
     fun mul(a:Int, b:Int):Int{
         return a*b
