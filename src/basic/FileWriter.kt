@@ -1,5 +1,6 @@
 package basic
 
+import java.io.FileReader
 import java.io.FileWriter
 
 /**
@@ -11,6 +12,8 @@ fun main(args: Array<String>) {
     val str: String = readLine().toString()
 
     writeToFile(str)
+
+    readFile()
 
 }
 
@@ -27,4 +30,18 @@ fun writeToFile(str: String) {
     } finally {
         writer.close()
     }
+}
+
+fun readFile(){
+
+    try {
+        val read = FileReader("text.txt")
+
+        println(read.readText())
+
+
+    } catch (e:Exception){
+        println(e.message)
+    }
+
 }
