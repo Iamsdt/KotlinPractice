@@ -45,6 +45,7 @@ fun main(args: Array<String>) {
 
     val thread4 = MyThread("Thread 4")
     thread4.start()
+    thread4.join()
 
     println("Thread 4 start")
 
