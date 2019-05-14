@@ -13,6 +13,8 @@ fun main(args: Array<String>) {
 
     val d = us isDefferent "Shudipto"
 
+    us plus 1
+
     print(di)
     print(d)
     print(bools)
@@ -27,6 +29,10 @@ infix fun String.change(s: Char) = this[0]
 class User(val name: String = "",
            val age: Int = 0,
            val year: Int = 1) {
+
+    infix fun plus(b:Int){
+
+    }
 
     infix fun isSame(st: String) = name == st
 

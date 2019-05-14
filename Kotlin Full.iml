@@ -9,5 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1" level="application" />
+    <orderEntry type="library" name="cc.duduhuo.util:digest-util:1.1.0" level="application" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.8.5" level="application" />
   </component>
 </module>
