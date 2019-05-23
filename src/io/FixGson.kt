@@ -24,7 +24,7 @@ fun main() {
             newList[i] = table
             println(newList[i].word)
         }
-        //check is contain duplicate
+        //check is  contain duplicate
         var p = i + 1
         while (p < list.size - 1) {
             val nm = list[p]
