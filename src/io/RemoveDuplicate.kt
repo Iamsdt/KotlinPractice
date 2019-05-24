@@ -15,7 +15,7 @@ fun main() {
     val list = old.toMutableList()
     print("Size: ${list.size}")
 
-    for (i in 0 until 2809) {
+    for (i in 0 until 2714) {
         val data = list[i]
         var p = i + 1
 
