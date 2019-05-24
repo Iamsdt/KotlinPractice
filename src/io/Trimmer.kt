@@ -21,7 +21,8 @@ fun main() {
         word = word.trim()
         if (word[word.length - 1] == '-') {
             println("Word: $word")
-            word = word.removePrefix("-")
+            word = word.removeSuffix("-")
+            println("Word: $word")
             update++
         }
 
