@@ -15,7 +15,7 @@ fun main() {
     val list = old.toMutableList()
     print("Size: ${list.size}")
 
-    for (i in 0 until 2714) {
+    for (i in 0 until 2710) {
         val data = list[i]
         var p = i + 1
 
@@ -38,9 +38,9 @@ fun main() {
                     continue
                 }
 
-                des1 = des1 + "\tReference: " + data.ref
-                des2 = des2 + "\tReference: " + table.ref
-                val des = des1 + "\n" + des2
+                des1 = des1 + "\t\tReference: " + data.ref
+                des2 = des2 + "\t\tReference: " + table.ref
+                val des = des1 + "\n\n" + des2
 
                 val myData = MyData(word = data.word, des = des, ref = "")
                 list[i] = myData

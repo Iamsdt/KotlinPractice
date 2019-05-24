@@ -19,12 +19,22 @@ fun main() {
     list.forEach {
         var word = it.word
         word = word.trim()
+        if (word.contains("(i)")) {
+            println("Word: $word")
+            val string = word.split("(i)")
+            word = string[0]
+            println("Word: $word")
+            update++
+        }
+
         if (word[word.length - 1] == '-') {
             println("Word: $word")
             word = word.removeSuffix("-")
             println("Word: $word")
             update++
         }
+
+        word = word.trim()
 
         val table = it.copy(word = word)
         newList.add(table)
